@@ -1,12 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import SignIn from './signIn';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import SignIn from "./signIn";
+import DashBoard from "./Dashboard";
 
-function App() {
-  return (
-   <SignIn></SignIn>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
+  render() {
+    return <SignIn />;
+  }
 }
 
 export default App;
